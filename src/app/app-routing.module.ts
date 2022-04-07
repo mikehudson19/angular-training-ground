@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ParentComponent } from './input-output/parent/parent.component';
+import { ParentComponent } from './modules/input-output/parent/parent.component';
+import { ContainerComponent } from './modules/subject/container/container.component';
 
 const routes: Routes = [
-  { path: 'io-parent', component: ParentComponent }
+  { path: 'io-parent', component: ParentComponent },
+  { path: 'subject', component: ContainerComponent }
 ];
 
 @NgModule({
