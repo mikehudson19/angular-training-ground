@@ -1,1 +1,5 @@
 <p>parent works!</p>
+
+<app-child (dataToSend)="receiveData($event)"></app-child>
+
+<p>The data from the child component is: {{ dataFromChild }}</p>
