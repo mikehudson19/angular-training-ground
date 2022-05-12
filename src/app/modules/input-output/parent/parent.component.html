@@ -1,4 +1,12 @@
-<app-child (dataToSend)="receiveData($event)"></app-child>
+<div class="container">
+    <div>
+        <h3>Parent component</h3>
+        <p>The data from the child component is: {{ dataFromChild }}</p>    
+    </div>
+    
+    <app-child (dataToSend)="receiveData($event)"></app-child>
+</div>
 
-<h3>Parent component</h3>
-<p>The data from the child component is: {{ dataFromChild }}</p>
+
+
+

@@ -1,0 +1,10 @@
+.container {
+    max-width: 70vw;
+    height: 50vh;
+    background: rgb(165, 165, 165);
+    margin: 3rem auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

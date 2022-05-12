@@ -4,7 +4,9 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { InputOutputModule } from './modules/input-output/input-output.module';
+import { LifecycleHooksModule } from './modules/lifecycle-hooks/lifecycle-hooks.module';
 import { SubjectModule } from './modules/subject/subject.module';
+import { ViewChildModule } from './modules/view-child/view-child.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { SubjectModule } from './modules/subject/subject.module';
     BrowserModule, 
     AppRoutingModule, 
     InputOutputModule,
-    SubjectModule
+    SubjectModule,
+    LifecycleHooksModule,
+    ViewChildModule
   ],
   providers: [],
   bootstrap: [AppComponent]

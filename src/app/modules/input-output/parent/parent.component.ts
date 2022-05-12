@@ -12,6 +12,7 @@ export class ParentComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
   receiveData(data: string): void {
